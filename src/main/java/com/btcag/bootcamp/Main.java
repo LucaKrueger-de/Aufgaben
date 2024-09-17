@@ -1,7 +1,11 @@
 package com.btcag.bootcamp;
-
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Bitte Zahl eingeben zur Quadratzahlberechnung");
+        long thenumber = scanner.nextLong();
+        thenumber *= thenumber;
+        System.out.println("Ergebnis:"+ thenumber);
     }
 }
