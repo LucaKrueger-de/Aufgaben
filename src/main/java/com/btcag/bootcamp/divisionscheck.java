@@ -16,15 +16,6 @@ public class divisionscheck {
                 System.out.println(zahl);
             }
         zahl++;
-
-
-
-
         }
-
-
-
-
-
     }
 }

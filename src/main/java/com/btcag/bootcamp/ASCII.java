@@ -73,12 +73,13 @@ public class ASCII {
                     zahl22++;
                 }
                 System.out.println();
-                zahl11--;
+
 
             }
 
     }
 }
+
 
 
 
