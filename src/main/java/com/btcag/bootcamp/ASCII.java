@@ -47,38 +47,10 @@ public class ASCII {
         }
 
 
-        //Aufgabe c)
-
-        System.out.println("Gib die Größe eines Dreiecks an: ");  //Noch ein Fehler drin. Nur die untere Seite der Sanduhr wird ausgegeben!
-        int inputdrei1 = input.nextInt();
-        int zahl11 = 0;
-        int zahl22;
-
-        while (zahl11 < inputdrei1) {
-            zahl11++;
-
-            zahl22 = 0;
-            System.out.println();
-            while (zahl22 < zahl11) {
-                System.out.print(stern);
-                zahl22++;
-            }
-        }
-
-            while (zahl11 > inputdrei1) {
-
-                zahl22 = 0;
-                while (zahl22 < zahl11) {
-                    System.out.print(stern);
-                    zahl22++;
-                }
-                System.out.println();
-
-
-            }
-
     }
+
 }
+
 
 
 

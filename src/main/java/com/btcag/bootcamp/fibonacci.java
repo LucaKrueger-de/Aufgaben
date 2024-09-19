@@ -9,16 +9,16 @@ public class fibonacci {
         System.out.println("Geben Sie eine Zahl n ein: ");
         int value = readIn.nextInt();  // Formel Fibonacci fn= fn-1 + fn-2
         int i = 0;
-        int j= 1;
+        int j = 1;
 
-        System.out.print("Fibonacci Zahlen: "+ i);
+        System.out.print("Fibonacci Zahlen: " + i);
 
-        while (j<=value){
-            System.out.print(", "+j);
-                    int fibo= i+j;
-                    i=j;
-                    j=fibo;
+        while (j <= value) {
+            System.out.print(", " + j);
+            int fibo = i + j;
+            i = j;
+            j = fibo;
         }
 
-        }
     }
+}
