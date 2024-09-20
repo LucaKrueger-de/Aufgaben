@@ -2,7 +2,7 @@ package com.btcag.bootcamp;
 
 import java.util.Scanner;
 
-public class primfaktorzerlegung {
+public class Pi {
     public static void main(String[] args) {
         Scanner readIn = new Scanner(System.in);
         System.out.println("Bitte geben Sie die Anzahl der Iterationen ein: ");
