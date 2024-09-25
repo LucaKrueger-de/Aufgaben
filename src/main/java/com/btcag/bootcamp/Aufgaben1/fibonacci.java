@@ -1,7 +1,6 @@
-package com.btcag.bootcamp;
+package com.btcag.bootcamp.Aufgaben1;
 
 import java.util.Scanner;
-import java.util.StringTokenizer;
 
 public class fibonacci {
     public static void main(String[] args) {
