@@ -12,13 +12,13 @@ public class FibonacciRekursiv {
             return 1;
 
         }
-        return fibonacci(n-1)+ fibonacci(n-2);
+        return fibonacci(n - 1) + fibonacci(n - 2);
     }
 
 
     public static void main(String[] args) {
-      Scanner input = new Scanner (System.in);
-      int number = input.nextInt();
-      System.out.println("Die "+number+" Fibonacci-Zahl ist: "+fibonacci(number));
+        Scanner input = new Scanner(System.in);
+        int number = input.nextInt();
+        System.out.println("Die " + number + " Fibonacci-Zahl ist: " + fibonacci(number));
     }
 }
