@@ -3,7 +3,7 @@ package com.btcag.bootcamp.Aufgaben2;
 
 import java.util.Scanner;
 
-public class Sortieren {
+public class  Sortieren {
     public static int[] sortieren(int[] numbers) {
         for (int i = numbers.length; i >= 0; i--) {
             for (int j = 0; j < 4; j++) {
